@@ -1,0 +1,30 @@
+%YAML:1.0
+# data
+# the tum dataset directory, change it to yours! 
+# dataset_dir: /media/xiang/Data/Dataset/Kitti/dataset/sequences/00
+data_dir: /Users/fanhongchang/code/ARServer-ORB_SLAM2/mav0/cam0/data
+time_dir: /Users/fanhongchang/code/ARServer-ORB_SLAM2/Examples/Monocular/EuRoC_TimeStamps/MH01.txt
+# camera intrinsics
+camera.fx: 458.654
+camera.fy: 457.296
+camera.cx: 367.215
+camera.cy: 248.375
+
+camera.k1: -0.28340811
+camera.k2: 0.07395907
+camera.p1: 0.00019359
+camera.p2: 1.76187114e-05
+
+num_features: 150
+num_features_init: 50
+num_features_tracking: 50
+
+# initialize
+init.window_size: 3
+init.min_good_matches: 80
+init.min_translation: 25
+
+track.min_translation: 1
+track.max_translation: 8
+
+#init.min_good_matches: 20

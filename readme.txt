@@ -1,0 +1,3 @@
+源代码位于src目录，可执行文件和生成的视频位于test目录，报告位于根目录
+工程在macOS平台运行，使用CMake管理工程，IDE为Clion
+OpenCV版本为3.4.5，如需重新编译，请修改CMakeLists.txt中的OpenCV_DIR指向您的OpenCV目录
